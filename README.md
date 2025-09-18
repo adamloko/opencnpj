@@ -39,13 +39,13 @@ curl https://kitana.opencnpj.com/cnpj/12345678000195
         "naturezaJuridica": "Sociedade Empresária Limitada (2062)",
         "capitalSocial": 10,
         "email": "kitana@exemplo.com",
-        "telefone": "(11) 1234-5678",
+        "telefone": "(62) 1234-5678",
         "logradouro": "Rua subzero, 123",
         "numero": "123",
         "complemento": "Sala 1",
-        "bairro": "Centro",
-        "municipio": "São Paulo",
-        "uf": "SP",
+        "bairro": "VILA NOVA",
+        "municipio": "GOIANIA",
+        "uf": "GO",
         "cep": "01000-000",
     }
 }
