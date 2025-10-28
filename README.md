@@ -1,6 +1,8 @@
 # OpenCNPJ
 ### WebService para consulta basica de CNPJs com dados totalmente publico!
 
+🔗 **Acesse o projeto online:** [https://www.opencnpj.com](https://www.opencnpj.com)
+
 Uma **API** feita para **ajudar a comunidade de desenvolvedores** a integrar dados de CNPJs de forma rápida e prática.  
 Pode ser usado em **qualquer projeto ou aplicação que precise acessar dados de CNPJs**.
 
