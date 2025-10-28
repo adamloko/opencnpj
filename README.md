@@ -10,7 +10,7 @@ Pode ser usado em **qualquer projeto ou aplicação que precise acessar dados de
 
 - **Dados totalmente públicos de CNPJs**, acessíveis de forma simples.
 - Integração fácil com **qualquer sistema** que precise desses dados.
-- **Limite de 500 requisições por minuto**, para uso consistente sem sobrecarregar o serviço.
+- **Limite de 100 requisições por minuto**, para uso consistente sem sobrecarregar o serviço.
 - **100% gratuito**, permitindo que a comunidade participe, melhore e reutilize.
 
 ---
@@ -28,25 +28,68 @@ curl https://kitana.opencnpj.com/cnpj/12345678000195
     "success": true,
     "message": null,
     "data": {
-        "cnpj": "12.345.678/0001-95",
+        "cnpj": "99988877000199",
         "situacaoCadastral": "Ativa",
-        "dataSituacaoCadastral": "01/01/2025",
-        "motivoSituacaoCadastral": "SEM MOTIVO",
-        "razaoSocial": "Mortal Kombat LTDA",
-        "nomeFantasia": "Kitana",
-        "dataInicioAtividades": "01/01/2020",
+        "dataSituacaoCadastral": "15/03/2023",
+        "motivoSituacaoCadastral": null,
+        "razaoSocial": "OUTWORLD COMBATE E TREINAMENTOS LTDA",
+        "nomeFantasia": "Mortal Kombat Arena",
+        "dataInicioAtividades": "09/01/1992",
         "matriz": "Sim",
         "naturezaJuridica": "Sociedade Empresária Limitada (2062)",
-        "capitalSocial": 10,
-        "email": "kitana@exemplo.com",
-        "telefone": "(62) 1234-5678",
-        "logradouro": "Rua subzero, 123",
-        "numero": "123",
-        "complemento": "Sala 1",
+        "capitalSocial": 9500000,
+        "email": "contato@outworldarena.mk",
+        "telefone": "(11) 99999-1992",
+        "logradouro": "AVENIDA SHANG TSUNG",
+        "numero": "666",
+        "complemento": "CASTELO DAS ALMAS",
         "bairro": "VILA NOVA",
-        "municipio": "GOIANIA",
+        "municipio": "GOIÂNIA",
         "uf": "GO",
-        "cep": "01000-000",
+        "cep": "13131-666",
+        "dataSituacaoEspecial": null,
+        "situacaoEspecial": null,
+        "opcaoSimples": "N",
+        "opcaoMei": "N",
+        "cnaes": [
+            {
+                "cnae": "9319201",
+                "descricao": "Organização de torneios interdimensionais de artes marciais"
+            },
+            {
+                "cnae": "9319202",
+                "descricao": "Treinamento e capacitação em combate corpo a corpo"
+            }
+        ],
+        "socios": [
+            {
+                "nomeSocio": "SHANG TSUNG",
+                "descricao": "Sócio-Administrador",
+                "identificadorSocio": 2,
+                "cnpjCpfSocio": "***666999**",
+                "dataEntradaSociedade": "09/01/1992",
+                "nomeRepresentante": null,
+                "faixaEtaria": "Mais de 100 anos"
+            },
+            {
+                "nomeSocio": "RAIDEN",
+                "descricao": "Sócio",
+                "identificadorSocio": 2,
+                "cnpjCpfSocio": "***777111**",
+                "dataEntradaSociedade": "12/03/1995",
+                "nomeRepresentante": "LORD FULGORE",
+                "faixaEtaria": "41-50 anos"
+            },
+            {
+                "nomeSocio": "LIU KANG",
+                "descricao": "Treinador-Chefe",
+                "identificadorSocio": 3,
+                "cnpjCpfSocio": "***222333**",
+                "dataEntradaSociedade": "01/06/2019",
+                "nomeRepresentante": null,
+                "faixaEtaria": "31-40 anos"
+            }
+        ]
     }
 }
 ```
